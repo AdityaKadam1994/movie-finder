@@ -16,18 +16,17 @@ const App = () => {
     );
     const response_data = await response.json();
     setMovies(response_data.Search);
-    console.log(response_data);
-    console.log(movies);
   };
 
+  /* Setting typed value*/
   const setSearch = e => {
     updateSearch(e.target.value);
   };
 
+  /* On form submit*/
   const getSearch = e => {
     e.preventDefault();
     setQuery(search);
-    console.log(query);
   };
 
   useEffect(() => {
