@@ -1,3 +1,9 @@
+1) Enter Name of Movie you want to search in search box
+
+2) Search will return all the details related to searched movie
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
