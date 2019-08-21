@@ -1,0 +1,51 @@
+.App {
+  min-height: 100vh;
+}
+
+.movie-form {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.movie-input {
+  width: 30%;
+  height: 30px;
+}
+
+.search-btn {
+  height: 36px;
+}
+
+.movie-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.wrapper {
+  flex-basis: 30%;
+  border: 1px solid #d6d6d6;
+  text-align: center;
+  margin: 20px 0;
+  box-shadow: 10px 14px 11px 2px #eae8e9;
+}
+
+.wrapper:hover {
+  transform: scale(1.01);
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card h1 {
+  padding: 0 5px;
+}
